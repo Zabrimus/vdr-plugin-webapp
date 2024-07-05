@@ -1,0 +1,7 @@
+The generated sample config.json files are created using the following sources:
+
+https://github.com/jnk22/kodinerds-iptv:
+kodi_tv_local.m3u
+kodi_tv_main.m3u
+
+https://iptv-org.github.io/iptv/countries/us.m3u
