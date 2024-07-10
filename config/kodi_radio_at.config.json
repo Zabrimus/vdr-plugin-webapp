@@ -1,0 +1,17 @@
+{"menus": [ { "center": 1, "title": "Main", "items": [{ "title":"Österreich", "app":0, "submenu":1}
+] },{ "center": 0, "title": "Österreich","items": [{ "title":"FM4","url":"https://orf-live.ors-shoutcast.at/fm4-q2a","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/fm4.png","app": 6,"desc":"Österreich, FM4","xmltvid":""},
+{ "title":"Hitradio Ö3","url":"https://orf-live.ors-shoutcast.at/oe3-q2a","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/hitradiooe3.png","app": 6,"desc":"Österreich, Hitradio Ö3","xmltvid":""},
+{ "title":"Klassik Radio","url":"https://edge61.streams.klassikradio.de/klassikradio-oesterreich/stream/mp3","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/klassikradio.png","app": 6,"desc":"Österreich, Klassik Radio","xmltvid":""},
+{ "title":"KRONEHIT","url":"https://secureonair.krone.at/kronehit-hp.mp3","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/kronehit.png","app": 6,"desc":"Österreich, KRONEHIT","xmltvid":""},
+{ "title":"KRONEHIT Dance","url":"https://secureonair.krone.at/kronehit23.mp3","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/kronehit.png","app": 6,"desc":"Österreich, KRONEHIT Dance","xmltvid":""},
+{ "title":"Life Radio","url":"https://stream.liferadio.at/liferadio/mp3-192","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/liferadio.png","app": 6,"desc":"Österreich, Life Radio","xmltvid":""},
+{ "title":"Orange 94.0","url":"https://securestream.o94.at/live.mp3","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/orange94.0.png","app": 6,"desc":"Österreich, Orange 94.0","xmltvid":""},
+{ "title":"Ö1","url":"https://orf-live.ors-shoutcast.at/oe1-q2a","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/oe1.png","app": 6,"desc":"Österreich, Ö1","xmltvid":""},
+{ "title":"Ö1 Campus","url":"https://orf-live.ors-shoutcast.at/campus-q2a","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/oe1.png","app": 6,"desc":"Österreich, Ö1 Campus","xmltvid":""},
+{ "title":"Radio Niederösterreich","url":"https://orf-live.ors-shoutcast.at/noe-q2a","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radioniederoesterreich.png","app": 6,"desc":"Österreich, Radio Niederösterreich","xmltvid":""},
+{ "title":"Radio Steiermark","url":"https://orf-live.ors-shoutcast.at/stm-q2a","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radiosteiermark.png","app": 6,"desc":"Österreich, Radio Steiermark","xmltvid":""},
+{ "title":"Radio Tirol","url":"https://orf-live.ors-shoutcast.at/tir-q2a","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radiotirol.png","app": 6,"desc":"Österreich, Radio Tirol","xmltvid":""},
+{ "title":"Radio Wien","url":"https://orf-live.ors-shoutcast.at/wie-q2a","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radiowien.png","app": 6,"desc":"Österreich, Radio Wien","xmltvid":""},
+{ "title":"U1 Tirol","url":"https://live.u1-radio.at/stream.mp3","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/u1tirol.png","app": 6,"desc":"Österreich, U1 Tirol","xmltvid":""}
+]}
+], "icondelay": "10" }

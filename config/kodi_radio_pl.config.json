@@ -1,0 +1,19 @@
+{"menus": [ { "center": 1, "title": "Main", "items": [{ "title":"Polen", "app":0, "submenu":1}
+] },{ "center": 0, "title": "Polen","items": [{ "title":"Planeta FM","url":"https://pa04.cdn.eurozet.pl/pla-net.mp3","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/planetafm.png","app": 6,"desc":"Polen, Planeta FM","xmltvid":""},
+{ "title":"Planeta FM Dope Hits","url":"http://pla02.cdn.eurozet.pl:8208/PLAHOU.mp3","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/planetafm.png","app": 6,"desc":"Polen, Planeta FM Dope Hits","xmltvid":""},
+{ "title":"Planeta FM Electronic Wave","url":"http://pla02.cdn.eurozet.pl:8228/PLAEDM.mp3","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/planetafm.png","app": 6,"desc":"Polen, Planeta FM Electronic Wave","xmltvid":""},
+{ "title":"Planeta FM Good Vibes","url":"http://pla01.cdn.eurozet.pl:8204/PLACHI.mp3","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/planetafm.png","app": 6,"desc":"Polen, Planeta FM Good Vibes","xmltvid":""},
+{ "title":"Planeta FM Indie Day Mood","url":"http://pla02.cdn.eurozet.pl:8230/PLAIDM.mp3","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/planetafm.png","app": 6,"desc":"Polen, Planeta FM Indie Day Mood","xmltvid":""},
+{ "title":"Radio ZET","url":"https://r.dcs.redcdn.pl/sc/o2/Eurozet/live/audio.livx","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radiozet.png","app": 6,"desc":"Polen, Radio ZET","xmltvid":""},
+{ "title":"Radio ZET 2000","url":"http://zet.cdn.eurozet.pl/ZET200.mp3","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radiozet.png","app": 6,"desc":"Polen, Radio ZET 2000","xmltvid":""},
+{ "title":"Radio ZET 80","url":"http://zet.cdn.eurozet.pl/ZET080.mp3","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radiozet.png","app": 6,"desc":"Polen, Radio ZET 80","xmltvid":""},
+{ "title":"Radio ZET 90","url":"http://zet.cdn.eurozet.pl/ZET090.mp3","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radiozet.png","app": 6,"desc":"Polen, Radio ZET 90","xmltvid":""},
+{ "title":"Radio ZET Dance","url":"http://zet.cdn.eurozet.pl/ZETDAN.mp3","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radiozet.png","app": 6,"desc":"Polen, Radio ZET Dance","xmltvid":""},
+{ "title":"Radio ZET Hits","url":"http://zet.cdn.eurozet.pl/ZETHIT.mp3","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radiozet.png","app": 6,"desc":"Polen, Radio ZET Hits","xmltvid":""},
+{ "title":"Radio ZET Love","url":"https://zt02.cdn.eurozet.pl/ZETLOV.mp3","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radiozet.png","app": 6,"desc":"Polen, Radio ZET Love","xmltvid":""},
+{ "title":"Radio ZET Party","url":"http://zet.cdn.eurozet.pl/ZETPAR.mp3","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radiozet.png","app": 6,"desc":"Polen, Radio ZET Party","xmltvid":""},
+{ "title":"Radio ZET PL","url":"http://zet.cdn.eurozet.pl/ZETPL1.mp3","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radiozet.png","app": 6,"desc":"Polen, Radio ZET PL","xmltvid":""},
+{ "title":"Radio ZET Rock","url":"http://zet.cdn.eurozet.pl/ZETROK.mp3","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radiozet.png","app": 6,"desc":"Polen, Radio ZET Rock","xmltvid":""},
+{ "title":"RMF FM","url":"https://rs103-krk.rmfstream.pl/RMFFM48","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/rmffm.png","app": 6,"desc":"Polen, RMF FM","xmltvid":""}
+]}
+], "icondelay": "10" }

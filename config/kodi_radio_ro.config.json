@@ -1,0 +1,4 @@
+{"menus": [ { "center": 1, "title": "Main", "items": [{ "title":"Rumänien", "app":0, "submenu":1}
+] },{ "center": 0, "title": "Rumänien","items": [{ "title":"Radio Manele","url":"https://ssl.servereradio.ro/8044/stream","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radiomanele.png","app": 6,"desc":"Rumänien, Radio Manele","xmltvid":""}
+]}
+], "icondelay": "10" }

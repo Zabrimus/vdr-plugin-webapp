@@ -1,0 +1,4 @@
+{"menus": [ { "center": 1, "title": "Main", "items": [{ "title":"Italien und Südtirol", "app":0, "submenu":1}
+] },{ "center": 0, "title": "Italien und Südtirol","items": [{ "title":"Radio 2000","url":"http://159.69.217.78:8000/?radio=radio2000.mp3","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radio2000it.png","app": 6,"desc":"Italien und Südtirol, Radio 2000","xmltvid":""}
+]}
+], "icondelay": "10" }

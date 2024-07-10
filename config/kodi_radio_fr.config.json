@@ -1,0 +1,5 @@
+{"menus": [ { "center": 1, "title": "Main", "items": [{ "title":"Frankreich", "app":0, "submenu":1}
+] },{ "center": 0, "title": "Frankreich","items": [{ "title":"Mouv'","url":"http://direct.mouv.fr/live/mouv-midfi.mp3","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/mouv.png","app": 6,"desc":"Frankreich, Mouv'","xmltvid":""},
+{ "title":"Radio Nova","url":"http://novazz.ice.infomaniak.ch/novazz-128.mp3","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radionova.png","app": 6,"desc":"Frankreich, Radio Nova","xmltvid":""}
+]}
+], "icondelay": "10" }

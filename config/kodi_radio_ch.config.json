@@ -1,0 +1,14 @@
+{"menus": [ { "center": 1, "title": "Main", "items": [{ "title":"Schweiz", "app":0, "submenu":1}
+] },{ "center": 0, "title": "Schweiz","items": [{ "title":"Radio SRF 1","url":"http://stream.srg-ssr.ch/m/drs1/mp3_128","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radiosrf1.png","app": 6,"desc":"Schweiz, Radio SRF 1","xmltvid":""},
+{ "title":"Radio SRF 2 Kultur","url":"http://stream.srg-ssr.ch/m/drs2/mp3_128","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radiosrf2kultur.png","app": 6,"desc":"Schweiz, Radio SRF 2 Kultur","xmltvid":""},
+{ "title":"Radio SRF 3","url":"http://stream.srg-ssr.ch/m/drs3/mp3_128","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radiosrf3.png","app": 6,"desc":"Schweiz, Radio SRF 3","xmltvid":""},
+{ "title":"Radio SRF 4 News","url":"http://stream.srg-ssr.ch/m/drs4news/mp3_128","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radiosrf4news.png","app": 6,"desc":"Schweiz, Radio SRF 4 News","xmltvid":""},
+{ "title":"Radio SRF Musikwelle","url":"http://stream.srg-ssr.ch/m/drsmw/mp3_128","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radiosrfmusikwelle.png","app": 6,"desc":"Schweiz, Radio SRF Musikwelle","xmltvid":""},
+{ "title":"Radio SRF Virus","url":"http://stream.srg-ssr.ch/m/drsvirus/mp3_128","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radiosrfvirus.png","app": 6,"desc":"Schweiz, Radio SRF Virus","xmltvid":""},
+{ "title":"Radio Swiss Pop","url":"http://stream.srg-ssr.ch/m/rsp/mp3_128","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radioswisspop.png","app": 6,"desc":"Schweiz, Radio Swiss Pop","xmltvid":""},
+{ "title":"Radio Swiss Classic","url":"http://stream.srg-ssr.ch/m/rsc_de/mp3_128","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radioswissclassic.png","app": 6,"desc":"Schweiz, Radio Swiss Classic","xmltvid":""},
+{ "title":"Radio Swiss Jazz","url":"http://stream.srg-ssr.ch/m/rsj/mp3_128","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radioswissjazz.png","app": 6,"desc":"Schweiz, Radio Swiss Jazz","xmltvid":""},
+{ "title":"Radio Zürisee","url":"http://mp3.radio.ch/radiozuerisee128k","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/radiozuerisee.png","app": 6,"desc":"Schweiz, Radio Zürisee","xmltvid":""},
+{ "title":"KONTRAFUNK","url":"https://stream.kontrafunk.radio/listen/kontrafunk/radio.mp3","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/kontrafunk.png","app": 6,"desc":"Schweiz, KONTRAFUNK","xmltvid":""}
+]}
+], "icondelay": "10" }
