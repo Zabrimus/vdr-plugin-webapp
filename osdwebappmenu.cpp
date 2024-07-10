@@ -3,7 +3,7 @@
 #include "osdwebappmenu.h"
 #include "service/web_service.h"
 
-cOsdWebAppMenu::cOsdWebAppMenu(const char *title, mINI::INIStructure& configuration) : cOsdMenu(title), configuration(configuration) {
+cOsdWebAppMenu::cOsdWebAppMenu(const char *title, mINI::INIStructure& configuration, std::string relativeConfigDir) : cOsdMenu(title), configuration(configuration), configDir(relativeConfigDir) {
     for (auto const& it : configuration) {
         auto const& section = it.first;
 
@@ -65,7 +65,18 @@ void cOsdWebAppMenu::processSection(std::string &section) {
         m3uList = configuration[section]["list"].c_str();
 
         // read content
-        std::ifstream ifs(m3uList);
+        std::string filename;
+        if (configDir.empty()) {
+            filename = m3uList;
+        } else {
+            if (endsWith(configDir, "/")) {
+                filename = configDir + m3uList;
+            } else {
+                filename = configDir + "/" + m3uList;
+            }
+        }
+
+        std::ifstream ifs(filename);
         std::string content(std::istreambuf_iterator<char>{ifs}, {});
 
         // create service object

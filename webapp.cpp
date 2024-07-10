@@ -10,6 +10,9 @@
 #include "webapp.h"
 #include "osdwebappmenu.h"
 
+std::string configFile;
+std::string relativeConfigDir;
+
 cPluginWebapp::cPluginWebapp() {
     // Initialize any member variables here.
     // DON'T DO ANYTHING ELSE THAT MAY HAVE SIDE EFFECTS, REQUIRE GLOBAL
@@ -22,30 +25,49 @@ cPluginWebapp::~cPluginWebapp() {
 
 const char *cPluginWebapp::CommandLineHelp() {
     return "  -c file,     --config=file configuration file\n"
-           "  -n,          --name        Menu entry name\n";
-}
+           "  -d directory --config-dir  path to the configuration directory.\n"
+           "                             All configuration files are searched "
+           "                             relativ to this directory."
+           "  -n,          --name        Menu entry name\n";}
 
 bool cPluginWebapp::ProcessArgs(int argc, char *argv[]) {
     static struct option long_options[] = {
-            { "config",      required_argument, nullptr, 'c' },
-            { nullptr }
+            {"config",       required_argument, nullptr, 'c'},
+            {"--name",       optional_argument, nullptr, 'n'},
+            {"--config-dir", required_argument, nullptr, 'd'},
+            {nullptr}
     };
 
     int c, option_index = 0;
-    while ((c = getopt_long(argc, argv, "c:n:", long_options, &option_index)) != -1)
-    {
+    while ((c = getopt_long(argc, argv, "c:n:d:", long_options, &option_index)) != -1) {
         if (c == 'c') {
-            // read the configuration ini file
-            mINI::INIFile file(optarg);
-            bool result = file.read(configuration);
-
-            if (!result) {
-                esyslog("Unable to read configuration file: %s", optarg);
-                return false;
-            }
+            configFile = std::string(optarg);
         } else if (c == 'n') {
             MAINMENUENTRYALT = strdup(optarg);
+        } else if (c == 'd') {
+            relativeConfigDir = std::string(optarg);
         }
+    }
+
+    // read the configuration ini file
+    std::string filename;
+
+    if (relativeConfigDir.empty()) {
+        filename = configFile;
+    } else {
+        if (endsWith(relativeConfigDir, "/")) {
+            filename = relativeConfigDir + configFile;
+        } else {
+            filename = relativeConfigDir + "/" + configFile;
+        }
+    }
+
+    mINI::INIFile file(filename);
+    bool result = file.read(configuration);
+
+    if (!result) {
+        esyslog("Unable to read configuration file: %s", optarg);
+        return false;
     }
 
     return true;
@@ -84,7 +106,7 @@ time_t cPluginWebapp::WakeupTime() {
 }
 
 cOsdObject *cPluginWebapp::MainMenuAction() {
-    return new cOsdWebAppMenu("Verfügbare Apps", configuration);
+    return new cOsdWebAppMenu("Verfügbare Apps", configuration, relativeConfigDir);
 }
 
 cMenuSetupPage *cPluginWebapp::SetupMenu() {
