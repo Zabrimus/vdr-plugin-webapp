@@ -1,9 +1,10 @@
 {"menus": [ { "center": 1, "title": "Main", "items": [{ "title":"International", "app":0, "submenu":1},
 { "title":"International;Filme / Serien", "app":0, "submenu":2},
-{ "title":"International;Musik", "app":0, "submenu":3},
-{ "title":"International;Nachrichten", "app":0, "submenu":4},
-{ "title":"International;Nachrichten;Dokumentationen", "app":0, "submenu":5},
-{ "title":"International;Vollprogramm", "app":0, "submenu":6}
+{ "title":"International;Information / Bildung", "app":0, "submenu":3},
+{ "title":"International;Musik", "app":0, "submenu":4},
+{ "title":"International;Nachrichten", "app":0, "submenu":5},
+{ "title":"International;Nachrichten;Dokumentationen", "app":0, "submenu":6},
+{ "title":"International;Vollprogramm", "app":0, "submenu":7}
 ] },{ "center": 0, "title": "International","items": [{ "title":"Peer TV Alto Adige","url":"https://iptv.peer.biz/live/peertv-it.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/peer-tv-alto-adige.png","app": 6,"desc":"International, Peer TV Alto Adige","xmltvid":"peer.tv"},
 { "title":"Peer TV South Tyrol","url":"https://iptv.peer.biz/live/peertv-en.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/peer-tv-south-tyrol.png","app": 6,"desc":"International, Peer TV South Tyrol","xmltvid":"peer.tv"},
 { "title":"TVNZ 1","url":"https://tvnzioslive04-i.akamaihd.net/hls/live/267188/1924997895001/channel1/masterR_5.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tvnz1.png","app": 6,"desc":"International, TVNZ 1","xmltvid":""},
@@ -27,6 +28,9 @@
 { "center": 0, "title": "International;Filme / Serien","items": [{ "title":"Dubai One","url":"http://dminnvll.cdn.mangomolo.com/dubaione/smil:dubaione.stream.smil/chunklist_b1500000.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/dubaione.png","app": 6,"desc":"International;Filme / Serien, Dubai One","xmltvid":"DubaiOne.net"},
 { "title":"Mello TV","url":"https://wowzaprod133-i.akamaihd.net/hls/live/577385/a1e0ad3f/playlist.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/mellotv.png","app": 6,"desc":"International;Filme / Serien, Mello TV","xmltvid":""}
 ]},
+{ "center": 0, "title": "International;Information / Bildung","items": [{ "title":"Love Nature","url":"https://lnc-love-nature.tubi.video/playlist.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/lovenature.png","app": 6,"desc":"International;Information / Bildung, Love Nature","xmltvid":"LoveNature.ca"},
+{ "title":"Love Nature 4K","url":"https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/lovenature4k.png","app": 6,"desc":"International;Information / Bildung, Love Nature 4K","xmltvid":"LoveNature4K.ca"}
+]},
 { "center": 0, "title": "International;Musik","items": [{ "title":"Activa TV","url":"https://streamtv.mediasector.es/hls/activatv/index.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/activatv.png","app": 6,"desc":"International;Musik, Activa TV","xmltvid":"ActivaTV.es"},
 { "title":"XITE","url":"https://ms2.mx-cd.net/tv/226-1855782/XITE_NL.smil/chunklist.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/xite.png","app": 6,"desc":"International;Musik, XITE","xmltvid":""},
 { "title":"TV 538","url":"https://radio538.prd1.talpatvcdn.nl/22e9bbf9616547d7bc162c993009c533/index.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tv538.png","app": 6,"desc":"International;Musik, TV 538","xmltvid":"TV538.nl"},
@@ -35,7 +39,7 @@
 ]},
 { "center": 0, "title": "International;Nachrichten","items": [{ "title":"Peer TV Südtirol","url":"https://iptv.peer.biz/live/peertv.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/peer-tv-suedtirol.png","app": 6,"desc":"International;Nachrichten, Peer TV Südtirol","xmltvid":"peer.tv"},
 { "title":"Sky News Extra","url":"https://skynewsau-live.akamaized.net/hls/live/2002690/skynewsau-extra2/master.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/skynewsextra.png","app": 6,"desc":"International;Nachrichten, Sky News Extra","xmltvid":"SkyNewsExtra.au"},
-{ "title":"Deutsche Welle (ES)","url":"https://dwamdstream109.akamaized.net/hls/live/2017970/dwstream109/index.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/deutschewelle.png","app": 6,"desc":"International;Nachrichten, Deutsche Welle (ES)","xmltvid":"DeutscheWelleES.de"},
+{ "title":"Deutsche Welle (ES)","url":"https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/deutschewelle.png","app": 6,"desc":"International;Nachrichten, Deutsche Welle (ES)","xmltvid":"DeutscheWelleES.de"},
 { "title":"Press TV","url":"https://cdnlive.presstv.ir/cdnlive/smil:cdnlive.smil/playlist.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/presstv.png","app": 6,"desc":"International;Nachrichten, Press TV","xmltvid":"PressTV.uk"},
 { "title":"CHCH","url":"https://bcovlive-a.akamaihd.net/45a29af6ec4341539ddd3dd505c4b669/us-west-2/5644964886001/playlist.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/chch.png","app": 6,"desc":"International;Nachrichten, CHCH","xmltvid":"CHCH.cdn"},
 { "title":"Three","url":"http://mediaworks-i.akamaihd.net/hls/live/220435/3812193411001/3news_live/master.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/three.png","app": 6,"desc":"International;Nachrichten, Three","xmltvid":""},
@@ -56,7 +60,7 @@
 { "title":"Channel NewsAsia","url":"https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/channelnewsasia.png","app": 6,"desc":"International;Nachrichten, Channel NewsAsia","xmltvid":""},
 { "title":"NKNews","url":"https://tv.nknews.org/tvdash/stream.mpd","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/nknews.png","app": 6,"desc":"International;Nachrichten, NKNews","xmltvid":""}
 ]},
-{ "center": 0, "title": "International;Nachrichten;Dokumentationen","items": [{ "title":"NHK WORLD TV","url":"https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/nhkworldtv.png","app": 6,"desc":"International;Nachrichten;Dokumentationen, NHK WORLD TV","xmltvid":""}
+{ "center": 0, "title": "International;Nachrichten;Dokumentationen","items": [{ "title":"NHK WORLD TV","url":"https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_1M.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/nhkworldtv.png","app": 6,"desc":"International;Nachrichten;Dokumentationen, NHK WORLD TV","xmltvid":""}
 ]},
 { "center": 0, "title": "International;Vollprogramm","items": [{ "title":"ARTE HD (FR)","url":"https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/master.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png","app": 6,"desc":"International;Vollprogramm, ARTE HD (FR)","xmltvid":"ARTE.fr"}
 ]}

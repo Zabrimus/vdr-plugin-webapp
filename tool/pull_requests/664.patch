@@ -1,0 +1,22 @@
+From 86adae36c9a6b770d61c7943868ff3e6edf810cf Mon Sep 17 00:00:00 2001
+From: linuxissuper <m+github@linuxistsuper.de>
+Date: Tue, 9 Jul 2024 21:41:15 +0200
+Subject: [PATCH] fix nhk world url
+
+---
+ iptv/source.yaml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/iptv/source.yaml b/iptv/source.yaml
+index 705c9d9c..c6c5b2f5 100644
+--- a/iptv/source.yaml
++++ b/iptv/source.yaml
+@@ -4462,7 +4462,7 @@ tv:
+         tvg_id: ''
+         tvg_logo: https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/nhkworldtv.png
+         tvg_name: NHK WORLD TV
+-        url: https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
++        url: https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_1M.m3u8
+       - group_title: IPTV-QA
+         group_title_kodi: International;Nachrichten
+         name: Al Jazeera Arabic

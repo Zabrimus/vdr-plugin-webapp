@@ -1,9 +1,9 @@
 {"menus": [ { "center": 1, "title": "Main", "items": [{ "title":"Teleshopping", "app":0, "submenu":1}
 ] },{ "center": 0, "title": "Teleshopping","items": [{ "title":"1-2-3.tv","url":"https://123tv-mx1.flex-cdn.net/index.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/123tv.png","app": 6,"desc":"Teleshopping, 1-2-3.tv","xmltvid":"123.tv.de"},
 { "title":"pearl.tv","url":"plugin://plugin.video.youtube/play/?video_id=Ou6XkR1tGE4","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/pearltv.png","app": 6,"desc":"Teleshopping, pearl.tv","xmltvid":"Pearl.tv.de"},
-{ "title":"QVC","url":"https://d2mn03dhv5o3g8.cloudfront.net/live/qvcde_main_clean/bitrate1.isml/3/prog_index.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/qvc.png","app": 6,"desc":"Teleshopping, QVC","xmltvid":"QVC.de"},
-{ "title":"QVC PLUS","url":"https://d2mn03dhv5o3g8.cloudfront.net/live/qvcde_plus_clean/bitrate1.isml/3/prog_index.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/qvcplus.png","app": 6,"desc":"Teleshopping, QVC PLUS","xmltvid":"QVCPlus.de"},
-{ "title":"QVC Beauty & Style","url":"https://d2mn03dhv5o3g8.cloudfront.net/live/qvcde_beauty_clean/bitrate1.isml/3/prog_index.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/qvcbeautystyle.png","app": 6,"desc":"Teleshopping, QVC Beauty & Style","xmltvid":""},
+{ "title":"QVC","url":"https://qvcde-live.akamaized.net/hls/live/2097104/qvc/master.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/qvc.png","app": 6,"desc":"Teleshopping, QVC","xmltvid":"QVC.de"},
+{ "title":"QVC PLUS","url":"https://qvcde-live.akamaized.net/hls/live/2097104/qps/master.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/qvcplus.png","app": 6,"desc":"Teleshopping, QVC PLUS","xmltvid":"QVCPlus.de"},
+{ "title":"QVC Beauty & Style","url":"https://qvcde-live.akamaized.net/hls/live/2097104/qby/master.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/qvcbeautystyle.png","app": 6,"desc":"Teleshopping, QVC Beauty & Style","xmltvid":""},
 { "title":"SonnenklarTV HD","url":"http://euvia.cdn.ses-ps.com/HLS-Live/index.m3u8","img":"https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/sonnenklartv.png","app": 6,"desc":"Teleshopping, SonnenklarTV HD","xmltvid":"sonnenklar.tv"}
 ]}
 ], "icondelay": "10" }
